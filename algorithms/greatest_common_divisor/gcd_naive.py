@@ -12,4 +12,4 @@ def get_common_divisors(num1, num2):
         common_divisors.append(num1)
     return common_divisors
 
-print("GDC of {} and {} is: {}".format(numbers[0], numbers[1], get_common_divisors(numbers[0], numbers[1])[-1]))
+print("GCD of {} and {} is: {}".format(numbers[0], numbers[1], get_common_divisors(numbers[0], numbers[1])[-1]))

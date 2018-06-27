@@ -6,4 +6,4 @@ def gcd_euclid(a, b):
         return b
     return gcd_euclid(b%a, a)
 
-print("GDC of {} and {} is: {}".format(numbers[0], numbers[1], gcd_euclid(numbers[0], numbers[1])))
+print("GCD of {} and {} is: {}".format(numbers[0], numbers[1], gcd_euclid(numbers[0], numbers[1])))
